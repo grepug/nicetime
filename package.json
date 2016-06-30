@@ -1,0 +1,28 @@
+{
+  "name": "@grepug/nicetime",
+  "version": "1.0.1",
+  "description": "a time formater",
+  "main": "dist/nicetime.min.js",
+  "scripts": {
+    "build": "rollup -c -n nicetime",
+    "dev": "rollup -c rollup.dev.config.js -n nicetime -w",
+    "test": "nodemon test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grepug/nicetime.git"
+  },
+  "author": "grepug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grepug/nicetime/issues"
+  },
+  "homepage": "https://github.com/grepug/nicetime#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "rollup": "^0.33.0",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "tape": "^4.6.0"
+  }
+}
