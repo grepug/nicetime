@@ -35,6 +35,9 @@ test('nicetime.js show be tested', (t) => {
 	t.equal(nicetime({
 		date: '2016-06-24 13:10:01'
 	}).get('H:i:s'), '13:10:01')
+	t.equal(nicetime({
+		date: '2016-06-24 13:10:01'
+	}).get('M-d H:i'), '06-24 13:10')
 
 	t.end()
 

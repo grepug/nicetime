@@ -5,7 +5,7 @@
   "main": "dist/nicetime.min.js",
   "scripts": {
     "build": "rollup -c -n nicetime",
-    "dev": "rollup -c rollup.dev.config.js -n nicetime -w",
+    "dev": "rollup -c rollup.dev.config.js -n nicetime",
     "test": "nodemon test/test.js"
   },
   "repository": {

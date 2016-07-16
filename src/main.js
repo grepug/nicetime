@@ -43,7 +43,7 @@ class Nicetime {
 				}
 			}
 		}
-		
+
 		switch (unit) {
 			case 'just now':
 				if (isAgo) {
@@ -106,6 +106,8 @@ class Nicetime {
 				return `${year}-${month}-${day} ${hour}:${min}:${sec}`
 			case 'Y-M-d':
 				return `${year}-${month}-${day}`
+			case 'M-d H:i':
+				return `${month}-${day} ${hour}:${min}`
   		case 'full':
   		default:
   			return `${year}-${month}-${day} ${hour}:${min}`
